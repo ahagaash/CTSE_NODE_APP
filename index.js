@@ -5,10 +5,10 @@ app.get('/', function (req, res) {
     res.send('{ "response": "Hello From Ahagaash.s IT19135076" }');
 });
 
-app.get('/will', function (req, res) {
-    res.send('{ "response": "Hello World" }');
+app.get('/group', function (req, res) {
+    res.send('{ "response": "2022-070" }');
 });
-app.get('/ready', function (req, res) {
+app.get('/test', function (req, res) {
     res.send('{ "response": " Great!, It works!" }');
 });
 app.listen(process.env.PORT || 3000);
