@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: nodeapp-deployment
+  name: nodeapp
   labels:
     app: nodeapp
 spec:
@@ -15,7 +15,7 @@ spec:
         app: nodeapp 
     spec:
       containers:
-      - name: nodeserver
+      - name: nodeapp
         image: gcr.io/kubernetes-project-350417/github.com/ahagaash/ctse_node_app
         ports:
         - containerPort: 3000
