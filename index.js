@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 app.get('/', function (req, res) {
-    res.send('{ "response": "Hello sliit Ahagaash.s IT19135076" }');
+    res.send('{ "response": "Hi sliit Ahagaash.s IT19135076" }');
 });
 
 app.get('/group', function (req, res) {
