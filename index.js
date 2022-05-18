@@ -6,7 +6,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/group', function (req, res) {
-    res.send('{ "response": "REG-2022-070" }');
+    res.send('{ "response": "REG-2022-071" }');
 });
 app.get('/test', function (req, res) {
     res.send('{ "response": " Great!, It works!" }');
